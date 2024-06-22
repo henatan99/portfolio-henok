@@ -24,7 +24,17 @@ module.exports = {
         lightGray: '#F3F4F6',
         midGray: '#6E7787',
         customBlack: '#171A1F',
-        lightText: '#9095A0'
+        lightText: '#9095A0',
+
+        customBlue: '#1E3A8A',
+        customGreen: '#10B981',
+        customPink: '#EC4899',
+        customPurple: '#8B5CF6',
+        customOrange: '#F97316',
+        customRed: '#EF4444',
+        customTeal: '#14B8A6',
+        customYellow: '#F59E0B',
+        customIndigo: '#6366F1'
       },
       backgroundColor: {
         btnPrimary: '#42BDD6',
@@ -33,6 +43,24 @@ module.exports = {
       },
       boxShadow: {
         customCard: '0 0 2px rgba(0, 0, 0, 0.1)'
+      },
+      keyframes: {
+        floating: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+        spinning: {
+          '0%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(20deg)' },
+          '50%': { transform: 'rotate(0deg)' },
+          '75%': { transform: 'rotate(-20deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
+      },
+      animation: {
+        floating: 'floating 3s ease-in-out infinite',
+        spinning: 'spinning 10s linear infinite',
       },
     },
   },

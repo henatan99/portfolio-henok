@@ -18,7 +18,7 @@ const Header = () => {
                 <div className='flex flex-row items-center justify-center bg-btnPrimary text-[#fff] text-lg w-10 h-10 rounded-full border-blue-900 border-1 font-bold'>
                     <span className='font-cabin'>HM</span>
                 </div>
-                <h2 className='text-customBlack font-manrope text-lg font-bold'>
+                <h2 className='text-customBlack font-manrope text-xl font-bold'>
                     Henok Mekonnen
                 </h2>
                 <nav className=''>

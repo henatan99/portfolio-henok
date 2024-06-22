@@ -24,13 +24,16 @@ module.exports = {
         lightGray: '#F3F4F6',
         midGray: '#6E7787',
         customBlack: '#171A1F',
+        lightText: '#9095A0'
       },
       backgroundColor: {
         btnPrimary: '#42BDD6',
         btnHovered: '#3AA9C0',
         lighGray: '#F3F4F6',
-
-      }
+      },
+      boxShadow: {
+        customCard: '0 0 2px rgba(0, 0, 0, 0.1)'
+      },
     },
   },
   plugins: [],

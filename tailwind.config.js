@@ -17,14 +17,19 @@ module.exports = {
         cabin: ["Cabin", 'sans-serif'],
         nunito: ["Nunito Sans", 'sans-serif']
       },
-      color: {
+      colors: {
+        customPrimary: '#42BDD6',
+        customHover: '#3AA9C0',
         customViolet: '#5434E0',
-        lightGray: '#9095A0',
+        lightGray: '#F3F4F6',
         midGray: '#6E7787',
         customBlack: '#171A1F',
       },
       backgroundColor: {
-        primary: '#5434E0'
+        btnPrimary: '#42BDD6',
+        btnHovered: '#3AA9C0',
+        lighGray: '#F3F4F6',
+
       }
     },
   },

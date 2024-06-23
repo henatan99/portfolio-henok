@@ -3,7 +3,7 @@ import { Button } from "./button";
 
 const GetInTouch = () => {
     return (
-        <section className="bg-[#FAFAFB] w-screen py-16 px-4">
+        <section className="bg-[#FAFAFB] w-full py-16 px-4">
             <div className="flex flex-col items-center gap-6 max-w-[36rem] m-auto">
                 <h2 className="text-4xl text-[#42BDD6] font-bold">Get In Touch</h2>
                 <p className="text-center">

@@ -19,7 +19,7 @@ const Header = () => {
                     <span className='font-cabin'>HM</span>
                 </div>
                 <h2 className='text-customBlack font-manrope text-xl font-bold'>
-                    Henok Mekonnen
+                    Full Stack Developer
                 </h2>
                 <nav className=''>
                     <ul className='flex flex-row items-center gap-3'>

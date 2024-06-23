@@ -7,19 +7,22 @@ const Projects = () => {
             id: 1, 
             title: 'Ride Sharing App', 
             description: `A ride sharing app connecting riders and drivers. Backed by a NextJS API with admin dashboard`,
-            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase'
+            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase',
+            imageUrl: '',
         },
         {
             id: 2, 
             title: 'Ride Sharing Application', 
             description: `A ride sharing app connecting riders and drivers`,
-            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase'
+            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase',
+            imageUrl: '',
         },
         {
             id: 3, 
             title: 'Ride Sharing Application', 
             description: `A ride sharing app connecting riders and drivers`,
-            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase'
+            technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase',
+            imageUrl: '/images/ekhc.png',
         },
     ]
 

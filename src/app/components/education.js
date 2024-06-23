@@ -38,7 +38,7 @@ const Education = () => {
             <div className="flex flex-row items-center justify-center gap-16 w-full">
                 {
                     institutes.map(institute => (
-                        <div className="transform transition duration-500 hover:scale-105 hover:bg-[#F8FAFF]">
+                        <div key={institute.id} className="transform transition duration-500 hover:scale-105 hover:bg-[#F8FAFF]">
                             <EducationCard {...institute} />
                         </div>
                     ))

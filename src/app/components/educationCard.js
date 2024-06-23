@@ -6,7 +6,7 @@ const EducationCard = (props) => {
     return (
         <a href={href} className="flex flex-col items-start p-2 shadow-customCard w-64 ">
             <div className="w-full flex items-center h-20 overflow-hidden bg-[#F8FAFF]">
-                <Image src={imageUrl} width={240} height={20}/>
+                <Image src={imageUrl} alt={imageUrl} width={240} height={20}/>
             </div>
             <div className="flex flex-col items-start w-full h-20">
                 <h3 className="font-nunito text-customBlack text-lg py-2">{name}</h3>

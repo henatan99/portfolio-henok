@@ -30,7 +30,7 @@ const Footer = () => {
                 <ul className="flex flex-row gap-8 w-1/3 justify-end">
                     {
                         socialLinks.map(link => (
-                            <li>
+                            <li key={link.id}>
                                 <a href={link.href}>
                                     <Image src={link.iconUrl} width={24} height={24}/>
                                 </a>

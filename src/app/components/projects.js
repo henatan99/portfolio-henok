@@ -8,14 +8,14 @@ const Projects = () => {
             title: 'Ride Sharing App', 
             description: `A ride sharing app connecting riders and drivers. Backed by a NextJS API with admin dashboard`,
             technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase',
-            imageUrl: '',
+            imageUrl: '/images/pickup.jpeg',
         },
         {
             id: 2, 
             title: 'Ride Sharing Application', 
             description: `A ride sharing app connecting riders and drivers`,
             technologies: 'React Native, NextJS, MongoDB, TypeScript, TailwindCSS, GoogleMaps, Firebase',
-            imageUrl: '',
+            imageUrl: '/images/getdoctor.png',
         },
         {
             id: 3, 
@@ -27,8 +27,8 @@ const Projects = () => {
     ]
 
     return (
-        <section className='flex flex-col items-center gap-12 w-full'>
-            <h1 className='text-black font-cabin text-4xl font-semibold'>My Projects</h1>
+        <section className='flex flex-col items-center gap-12 w-full bg-white py-8 rounded-3xl'>
+            <h1 className='text-customBlue font-cabin text-4xl font-semibold'>My Projects</h1>
             <div className='flex flex-row items-center justify-center gap-4 flex-wrap px-1'>
                 {
                     projects.map(project => (

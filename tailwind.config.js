@@ -34,12 +34,14 @@ module.exports = {
         customRed: '#EF4444',
         customTeal: '#14B8A6',
         customYellow: '#F59E0B',
-        customIndigo: '#6366F1'
+        customIndigo: '#6366F1',
+        heading1: '#42BDD6'
       },
       backgroundColor: {
         btnPrimary: '#42BDD6',
         btnHovered: '#3AA9C0',
         lighGray: '#F3F4F6',
+        customBlueBg: 'rgb(1 132 255 / var(--tw-bg-opacity))'
       },
       boxShadow: {
         customCard: '0 0 2px rgba(0, 0, 0, 0.1)'

@@ -35,7 +35,7 @@ const Education = () => {
     return (
         <div className="flex flex-col items-center gap-8 w-full">
             <h2 className="text-2xl font-nunito text-customBlack">Education</h2>
-            <div className="flex flex-row items-center justify-center gap-16 w-full">
+            <div className="flex flex-row items-center flex-wrap justify-center gap-16 w-full">
                 {
                     institutes.map(institute => (
                         <div key={institute.id} className="transform transition duration-500 hover:scale-105 hover:bg-[#F8FAFF]">

@@ -21,7 +21,7 @@ const Header = () => {
                 <h2 className='text-customBlack font-manrope text-xl font-bold'>
                     Full Stack Developer
                 </h2>
-                <nav className=''>
+                <nav className='hidden md:block'>
                     <ul className='flex flex-row items-center gap-3'>
                         {
                             navItems.map(navItem => (
@@ -54,7 +54,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            <div className='flex flex-row items-center gap-3'>
+            <div className='hidden md:flex flex-row items-center gap-3'>
                 <ButtonOutline text='Log in' />
                 <Button text='Subscribe' />
             </div>

@@ -43,8 +43,8 @@ const ExperienceDetails = (props) => {
 const ExperienceCard = (props) => {
     const { name, role, built, href, imageUrl, started, completed, achievements } = props;
     return (
-        <div className="flex flex-col items-start gap-3 justify-between p-4 w-full shadow-customCard rounded-lg">
-            <h3 className="font-nunito text-lightText text-lg border-b-2 border-[#F3F4F6]">{role}</h3>
+        <div className="flex flex-col items-start gap-3 justify-between p-4 w-full shadow-customCard rounded-lg bg-[#FAFAFB]">
+            <h3 className="font-nunito text-customBlue text-lg border-b-2 border-lightGray">{role}</h3>
             <div className="flex flex-row items-center justify-between w-full ">
                 <h2 className="text-sm text-customBlack">{name}</h2>
                 <span className="text-xs text-lightText">{started} - {completed}</span>

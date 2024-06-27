@@ -6,8 +6,8 @@ const ProjectCard = (props) => {
     const { title, description, technologies, imageUrl } = props;
     return (
         <div className="flex flex-col items-center gap-3 justify-between p-4 w-80 shadow-customCard rounded-lg h-[28rem]">
-            <div className="bg-lightGray w-full h-80 flex">
-                <Image src={imageUrl} alt={imageUrl} width={320} height={20} />
+            <div className="relative bg-[lightGray] w-full h-80 flex p-2">
+                <Image src={imageUrl} alt={imageUrl} layout="fill" objectFit="contain" className="m-auto" />
             </div>
             <div className="flex flex-col items-start justify-between gap-4 w-full h-full">
                 <div className="flex flex-col items-start gap-4 w-full">

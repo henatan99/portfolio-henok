@@ -18,8 +18,8 @@ const Footer = () => {
     return (
         <footer className="bg-[#1D2128] flex flex-col px-12">
             <div className="flex flex-col items-center gap-8 py-16">
-                <h2 className="text-center text-white font-nunito text-3xl font-bold">Subscribe to our <br/> Newsletter</h2>
-                <form onSubmit={handleSubmit} className="flex p-2">
+                <h2 className="text-center text-white font-nunito text-3xl font-bold">Subscribe to my <br/> Contents</h2>
+                <form onSubmit={handleSubmit} className="flex flex-col gap-4 md:gap-0 md:flex-row p-2">
                     <input placeholder="Input Your Email" className="text-white text-sm bg-transparent outline-none p-2 border-b-2 border-white"/>
                     <button type="submit" className="bg-[#42BDD6] text-white hover:bg-[#3AA9C0] py-2 px-3 border-b-2 border-white">Subscribe</button>
                 </form>

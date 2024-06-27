@@ -46,13 +46,13 @@ const Skills = () => {
     const size = ['text-2xl', 'text-lg', 'text-xs']
 
     return (
-        <section className="flex flex-col items-center gap-12 w-full">
-            <h2 className='text-black font-cabin text-4xl font-semibold'>Skills and Expertise</h2>
+        <section className="hidden md:flex flex-col items-center gap-12 w-full bg-white py-8 rounded-3xl">
+            <h2 className='text-customBlue font-cabin text-4xl font-semibold'>Skills and Expertise</h2>
             <ul className="flex flex-row justify-between flex-wrap w-[40rem]">
                 {
                     skills.map(skill => (
                         <li key={skill.id} className="">
-                            <p className={`${size[skill.rank]} ${colors[skill.category]} p-4 opacity-55 font ${skill.animate}`}>{skill.text}</p>
+                            <p className={`${size[skill.rank]} ${colors[skill.category]} p-4 opacity-75 font ${skill.animate}`}>{skill.text}</p>
                         </li>
                     ))
                 }
